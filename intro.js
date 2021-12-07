@@ -1,16 +1,8 @@
-let obj = {
-    "name" : ["Shivam", "Shrohit"],
-    "sname" : ["Soam" , "Soam"]
-};
-
-function fun(object)
+let a = "hi/my/name/is/Music";
+let folderName = "Music";
+let arr = a.split('/');
+console.log(arr);
+if(arr[arr.length-1] === folderName)
 {
-    console.log(object);
-    for(let key in object)
-    {
-        if(object[key].contains())
-    }
-    //let ans = checkIfExists()
+    console.log("Rohmbolalla!");
 }
-
-let ans = fun(obj);

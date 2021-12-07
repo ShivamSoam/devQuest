@@ -53,6 +53,11 @@ function sortFolder(basePath)
         {
             let extension = path.extname(content[i]);
             let folderName = getFolderName(extension);
+            let addArr = basePath.split('/');
+            if(addArr[addArr.length-1] === folderName)
+            {
+                return;
+            }
             //console.log(folderName);
             
             folderPath = `${basePath}/${folderName}`;
