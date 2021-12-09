@@ -133,6 +133,6 @@ function handleBFlag(data) {
 }
 
 function printResult(data) {
-    let ans = data.join("\n");
+    let ans = data.join("\r\n");
     console.log(ans);
 }
