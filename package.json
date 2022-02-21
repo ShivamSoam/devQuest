@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/ShivamSoam/devQuest#readme",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.10"
+    "cheerio": "^1.0.0-rc.10",
+    "puppeteer": "^13.0.1",
+    "request": "^2.88.2",
+    "uniqid": "^5.4.0"
   }
 }
